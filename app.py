@@ -16,7 +16,7 @@ from utils import load_model, infer_image, infer_video_frame
 from config import *
 import platform
 from coze_api import get_pest_control_advice
-
+import streamlit as st
 # ==================== 用户评价页面 ====================
 def feedback_page():
     """用户评价页面，整合 HTML 代码"""
@@ -334,7 +334,7 @@ def feedback_page():
 </html>
 
     """
-    components.html(feedback_html, height=800) # 调整高度以适应内容
+    components.html(feedback_html, height=1500) # 调整高度以适应内容
 
 
 # ==================== 用户认证功能 ====================
