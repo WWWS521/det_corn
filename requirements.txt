@@ -1,1 +1,8 @@
+streamlit
 opencv-python
+Pillow
+numpy
+pandas
+matplotlib
+folium
+streamlit-folium
